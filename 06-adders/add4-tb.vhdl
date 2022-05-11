@@ -53,5 +53,7 @@ begin
 
         -- printing the data
         assert false report time'image(now) & str_o.all severity note;
+        -- could also be printed wtih:
+        -- writeline(output, str_o);
     end process ; -- txt_out
 end test_add4 ; -- test_add4
